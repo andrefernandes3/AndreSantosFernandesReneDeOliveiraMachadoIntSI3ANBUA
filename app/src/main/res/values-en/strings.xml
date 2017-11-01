@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndreSantosFernandesReneDeOliveiraMachadoIntSI3ANBUA</string>
+    <string name="txtNome">What is your name?</string>
+    <string name="txtAssunto">What is your subject of interest?</string>
+    <string name="listaLivros">Here is a list of books:</string>
+    <string name="btnOk">OK</string>
+    <string name="exibeNomeTV">"Welcome"</string>
+    <string name="sem_resultados">No book</string>
+</resources>

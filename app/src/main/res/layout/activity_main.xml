@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="br.usjt.andresantosfernandesrenedeoliveiramachadointsi3anbua.MainActivity">
+
+    <TextView
+        android:id="@+id/txtNomeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtNome" />
+
+    <EditText
+        android:id="@+id/editNomeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtNomeId"
+        android:ems="10"
+        android:focusable="auto"
+        android:inputType="textPersonName"
+        android:text="@string/edtNome"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/txtAssuntoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editNomeId"
+        android:text="@string/txtAssunto" />
+
+    <EditText
+        android:id="@+id/editAssuntoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtAssuntoId"
+        android:ems="10"
+        android:focusable="auto"
+        android:inputType="textPersonName"
+        android:text="@string/edtAssunto"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnId"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editAssuntoId"
+        android:layout_below="@+id/editAssuntoId"
+        android:onClick="enviaDados"
+        android:text="@string/btnOk" />
+
+</RelativeLayout>
+

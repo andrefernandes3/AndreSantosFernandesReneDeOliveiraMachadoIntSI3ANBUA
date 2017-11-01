@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndreSantosFernandesReneDeOliveiraMachadoIntSI3ANBUA</string>
+    <string name="txtNome">Qual o seu nome?</string>
+    <string name="txtAssunto">Qual seu assunto de interesse?</string>
+    <string name="edtAssunto"></string>
+    <string name="btnOk">OK</string>
+    <string name="listaLivros">Eis aqui uma lista de livros:</string>
+    <string name="exibeNomeTV">Bem vindo(a) </string>
+    <string name="edtNome"></string>
+    <string name="sem_resultados">Nenhum livro</string>
+</resources>
